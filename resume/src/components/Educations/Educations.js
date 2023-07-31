@@ -8,7 +8,6 @@ import Typography from '@mui/material/Typography';
 function Educations() {
     return (
         <Container maxWidth="md" style={styles.mainContainer}>
-
             <Grid container spacing={2}>
 
                 <Grid item xs={12} md={12} style={styles.HeaderContainer}>
