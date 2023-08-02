@@ -4,10 +4,10 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Title from '../Title/Title';
 import Typography from '@mui/material/Typography';
-
+import Rating from '@mui/material/Rating';
 function Abilities() {
     return (
-        <><Container maxWidth="md" style={styles.mainContainer}>
+        <><Container maxWidth="lg" style={styles.mainContainer}>
             <Grid container spacing={2}>
 
                 <Grid item xs={12} md={12} style={styles.HeaderContainer}>
@@ -16,20 +16,28 @@ function Abilities() {
 
                 </Grid>
             </Grid>
-        </Container>
+
             <div style={styles.skillContainer}>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={6}>
                         <Typography variant="h5" component="h4">Coding</Typography>
-                        
+                        <Grid container spacing={2}>
+                            <Grid item xs={12} md={6}>
+                                <Typography variant="span" component="legend">React Js</Typography> </Grid>
+                            <Grid item xs={12} md={6}>
+                                <span style={styles.rating}><Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly /></span>
+                            </Grid>
+
+                        </Grid>
                     </Grid>
 
 
                     <Grid item xs={12} md={6}>
-                    <Typography variant="h5" component="h4">Languages</Typography>
+                        <Typography variant="h5" component="h4">Languages</Typography>
                     </Grid>
                 </Grid>
             </div>
+        </Container>
         </>
     );
 }

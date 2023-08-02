@@ -10,16 +10,16 @@ const styles = {
     mainContainer: {
         marginTop: "200px"
     },
-    HeaderContainer:{
-        textAlign:"center"
+    HeaderContainer: {
+        textAlign: "center"
     },
-   skillContainer: {
+    skillContainer: {
         marginTop: "20px",
-        padding:"50px"
+        padding: "50px"
     },
-    rating:{
-        textAlign:"right"  
-    }
+    rating: {
+        textAlign: "right"
+    },
 
 
 };

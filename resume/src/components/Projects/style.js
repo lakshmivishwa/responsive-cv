@@ -3,15 +3,7 @@ const styles = {
     mainContainer: {
         marginTop: "200px"
     },
-    verticalLine: {
-        border: " 1px solid black",
-        // height: "500px",
-        // position: "absolute",
-        // left: "50%",
-        // marginLeft: "-3px",
-        top: "10",
-
-    },
+    
     circle: {
         height: "10px",
         width: "10px",
@@ -19,15 +11,17 @@ const styles = {
         border: " 1px solid black",
         textAlign: "center"
     },
+    projectContainer: {
+        marginTop: "20px",
+        padding:"50px"
+    },
     line: {
         textAlign: "center"
     },
     HeaderContainer: {
         textAlign: "center"
-    },
-    eduContainer:{
-        marginBottom:"50px"
     }
+
 
 };
 

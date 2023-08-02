@@ -1,0 +1,148 @@
+{
+  "name": "Lakshmi Vishwakarma",
+  "dateOfBirth": "1995-01-11",
+  "address": {
+    "line1": "B-302 Mayur Plaza",
+    "line2": "Shivraj Nagar, Rahatni",
+
+    "pincode": 411017
+  },
+  "phoneNo": "+919752083903",
+  "email": "lvlaxmi.1995@gmail.com",
+  "city": "Pune",
+  "github": "https://github.com/Lakshmivishwakarma",
+  "linkedin": "https://www.linkedin.com/in/lakshmiv11",
+  "objective": "Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. In one years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI .",
+  "experiences": [
+    {
+      "organizationName": "AXIS Bank Ltd",
+      "designation": "Service Relationship Officer",
+      "role": [
+        "Liasoning with credit and Operations team for the smooth process of proposals , Maintaining daily MIS for login & disbursement and Coordinate with RM'S & ASM'S for BOD & EOD report."
+      ],
+      "tenure": {
+        "from": " 2022-01-28",
+        "to": "2022-03-15"
+      }
+    },
+    {
+      "organizationName": "AXIS Bank Ltd",
+      "designation": "Service Relationship Officer",
+      "role": [
+        "Liasoning with credit and Operations team for the smooth process of proposals , Maintaining daily MIS for login & disbursement and Coordinate with RM'S & ASM'S for BOD & EOD report."
+      ],
+      "tenure": {
+        "from": "2019-07-12",
+        "to": "2022-01-27"
+      }
+    },
+    {
+      "organizationName": "SBI Card",
+      "designation": "Back Office Executive",
+      "role": ["Maintaining Daily MIS for login & Dispatch Forms."],
+      "tenure": {
+        "from": "2018-01-18",
+        "to": "2019-05-15"
+      }
+    }
+  ],
+  "education": [
+    {
+      "instituteName": "John Hopkins University",
+      "courseName": "HTML, CSS, and Javascript for Web Developers",
+      "tenure": {
+        "from": "2022-03-01",
+        "to": "2022-05-31"
+      },
+      "courseURL": "HTTT",
+      "location": "Coursera"
+    },
+    {
+      "instituteName": "ICCI Computer Academy",
+      "courseName": "M.Sc. (CS)",
+      "tenure": {
+        "from": "2017-08-01",
+        "to": "2019-07-01"
+      },
+      "courseURL": "HTTT",
+      "location": "Bhopal"
+    },
+    {
+      "instituteName": "Sarojini Naidu Govt Girls PG College",
+      "courseName": "B.Sc.(BZC)",
+      "tenure": {
+        "from": "2013-08-01",
+        "to": "2016-07-18"
+      },
+      "courseURL": "HTTT",
+      "location": "Bhopal"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Loan Application Form",
+      "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/loan_application",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "features": [
+        "Created as an assignment for a company",
+        "Captcha validation and OTP validation for forms"
+      ]
+    },
+    {
+      "name": "Restaurant Website",
+      "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/coursera-assignments/tree/main/restaurant",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/restaurant/index.html",
+      "technologies": ["Javascript", "HTML", "Ajax", "JSON", "Bootstrap"],
+      "features": [
+        "Responsive Pages using Bootstrap 3.0",
+        "Single Page Application using Vanilla JS"
+      ]
+    },
+    {
+      "name": "Responsive Resume",
+      "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/Lakshmivishwakarma.io",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/",
+      "technologies": ["Javascript", "HTML", "Ajax", "JSON", "Bootstrap"],
+      "features": ["Responsive Resume "]
+    },
+    {
+      "name": "School Management",
+      "sourceCodeUrl": "",
+      "liveURL": "",
+      "technologies": ["VB .Net", "MS Acess"],
+      "features": [
+        "Admission registration",
+        "Course Selection",
+        "Fee Structure"
+      ]
+    }
+  ],
+  "skills": [
+    "Javascript",
+    "OOPS",
+    "HTML",
+    "CSS",
+    "Jquery",
+    "Bootstrap",
+    "Ajax"
+  ],
+  "tools": [
+    {
+      "name": "VS Code",
+      "title": "Visual Studio Code",
+      "image": "vs_code.png"
+    },
+    {
+      "name": "Github",
+      "title": "Github",
+      "image": "github.png"
+    }
+  ],
+  "awards": [
+    "\"B\" certificate issued by NSS (National service scheme)",
+    "Participated in NSS State camp during graduation",
+    "Participated in National camp during graduation"
+  ],
+  "languages": ["English", "Hindi", "Marathi"]
+}
