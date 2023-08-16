@@ -6,6 +6,7 @@ import Educations from './components/Educations/Educations';
 import Abilities from './components/Abilities/Abilities';
 import Projects from './components/Projects/Projects';
 import axios from "axios";
+import Footer from './components/Footer/Footer';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -30,6 +31,7 @@ console.log(data);
       <Educations data={data?.education || []} />
       <Abilities />
       <Projects />
+      <Footer/>
 
     </div>
   );

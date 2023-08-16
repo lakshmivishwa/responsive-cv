@@ -13,9 +13,12 @@ const styles = {
     HeaderContainer: {
         textAlign: "center"
     },
-    skillContainer: {
+    abilitiesContainer: {
         marginTop: "20px",
         padding: "50px"
+    },
+    abilitiesSubContainer:{
+        marginBottom: "20px",
     },
     rating: {
         textAlign: "right"
