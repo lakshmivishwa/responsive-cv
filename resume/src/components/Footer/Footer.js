@@ -9,7 +9,7 @@ function Footer() {
 
     return (
         <Container maxWidth="md" style={styles.mainContainer}>
-            <Typography variant="h6" component="h2" >Don't forget to follow me..</Typography>  
+            <Typography variant="h6" component="h2" >Don't forget to follow me..</Typography>
         </Container>
     );
 }

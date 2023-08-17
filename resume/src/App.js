@@ -22,16 +22,16 @@ function App() {
   useEffect(() => {
     getData();
   }, []);
-console.log(data);
+  console.log(data);
   return (
     <div className="App">
       <Homepage />
       <PersonalDetail />
-      <Careers  data={data?.experiences || []}/>
+      <Careers data={data?.experiences || []} />
       <Educations data={data?.education || []} />
-      <Abilities />
-      <Projects />
-      <Footer/>
+      <Abilities codingData={data?.coding || []} languageData={data?.languages || []} toolsData={data?.tools || []} />
+      <Projects data={data?.projects || []} />
+      <Footer />
 
     </div>
   );

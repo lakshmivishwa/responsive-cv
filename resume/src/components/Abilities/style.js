@@ -17,7 +17,11 @@ const styles = {
         marginTop: "20px",
         padding: "50px"
     },
-    abilitiesSubContainer:{
+    abilitiesSubContainer: {
+        marginBottom: "20px",
+    },
+    toolsContainer: {
+        marginTop: "30px",
         marginBottom: "20px",
     },
     rating: {

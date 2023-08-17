@@ -4,12 +4,12 @@
   "address": {
     "line1": "B-302 Mayur Plaza",
     "line2": "Shivraj Nagar, Rahatni",
-
     "pincode": 411017
   },
   "phoneNo": "+919752083903",
   "email": "lvlaxmi.1995@gmail.com",
   "city": "Pune",
+
   "github": "https://github.com/Lakshmivishwakarma",
   "linkedin": "https://www.linkedin.com/in/lakshmiv11",
   "objective": "Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. In one years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI .",
@@ -118,14 +118,43 @@
       ]
     }
   ],
-  "skills": [
-    "Javascript",
-    "OOPS",
-    "HTML",
-    "CSS",
-    "Jquery",
-    "Bootstrap",
-    "Ajax"
+  "coding": [
+    {
+      "codingSkill": "Javascript",
+      "rating": 0.3
+    },
+    {
+      "codingSkill": "HTML",
+      "rating": 0.5
+    },
+    {
+      "codingSkill": "CSS",
+      "rating": 0.5
+    },
+    {
+      "codingSkill": "Jquery",
+      "rating": 0.5
+    },
+    {
+      "codingSkill": "Bootstrap",
+      "rating": 0.5
+    },
+    {
+      "codingSkill": "NodeJS / Express",
+      "rating": 0.5
+    },
+    {
+      "codingSkill": "JSON / XML",
+      "rating": 0.5
+    },
+    {
+      "codingSkill": "Mongodb",
+      "rating": 0.5
+    },
+    {
+      "codingSkill": "Python",
+      "rating": 0.5
+    }
   ],
   "tools": [
     {
@@ -144,5 +173,18 @@
     "Participated in NSS State camp during graduation",
     "Participated in National camp during graduation"
   ],
-  "languages": ["English", "Hindi", "Marathi"]
+  "languages": [
+    {
+      "language": "Hindi",
+      "ratings": 0.5
+    },
+    {
+      "language": "English",
+      "ratings": 0.4
+    },
+    {
+      "language": "Marathi",
+      "ratings": 0.3
+    }
+  ]
 }
