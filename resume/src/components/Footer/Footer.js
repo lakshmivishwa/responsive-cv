@@ -11,8 +11,8 @@ function Footer() {
         <Container maxWidth="md" style={styles.mainContainer} >
             <Typography variant="h5" component="h5" >Don't forget to follow me..</Typography>
             <div style={styles.container} >
-                <a href="https://www.linkedin.com/feed/" ><BiLogoLinkedin size={30} /></a>
-                <a href="https://github.com/lakshmivishwa" ><AiFillGithub size={30} /></a>
+                <a href="https://www.linkedin.com/feed/" style={styles.icons}><BiLogoLinkedin size={30} /></a>
+                <a href="https://github.com/lakshmivishwa"  style={styles.icons}><AiFillGithub size={30} /></a>
             </div>
         </Container>
     );

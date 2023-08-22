@@ -5,8 +5,8 @@ const styles = {
         border: "1px solid black",
         // marginTop: "30px",
         // textAlign:"center",
-        width: "70%",
-        height: "100%",
+        width: "80%",
+        height: "250px",
         borderRadius: "100px"
     },
     mainContainer: {

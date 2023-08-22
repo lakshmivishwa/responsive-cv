@@ -16,12 +16,11 @@ function PersonalDetail(props) {
                     <Title titleName="ABOUT ME" />
                 </Grid>
 
-                <Grid item xs={4} md={4}>
-                    <img src="img_girl.jpg" alt="passport size" style={styles.imageContainer} />
-
+                <Grid item xs={12} md={4}>
+                    <img src="http://localhost:3000/image/photo.jpg" alt="passport size" style={styles.imageContainer} />
                 </Grid>
-                <Grid item xs={8} md={8}>
-                    <Typography variant="subtitle1" component="subtitle1">Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. In one years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI .</Typography>
+                <Grid item xs={12} md={8}>
+                    <Typography variant="subtitle1" component="subtitle1">{props.objective}</Typography>
                 </Grid>
             </Grid>
         </Container>

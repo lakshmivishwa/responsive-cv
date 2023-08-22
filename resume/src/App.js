@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <Homepage />
-      <PersonalDetail />
+      <PersonalDetail image={data?.profilePhoto || []} objective={data?.objective || []} />
       <Careers data={data?.experiences || []} />
       <Educations data={data?.education || []} />
       <Abilities codingData={data?.coding || []} languageData={data?.languages || []} toolsData={data?.tools || []} />

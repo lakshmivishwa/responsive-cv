@@ -1,7 +1,8 @@
 const styles = {
 
     mainContainer: {
-        marginTop: "200px"
+        marginTop: "200px",
+    
     },
     verticalLine: {
         border: " 1px solid black",
@@ -24,6 +25,10 @@ const styles = {
     },
     HeaderContainer: {
         textAlign: "center"
+    },
+    Container:{
+        marginTop:"20px",
+        marginBottom:"20px"
     }
 
 

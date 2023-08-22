@@ -8,6 +8,9 @@ const styles = {
         textAlign: "center",
         padding: "50px",
         margin: "30px"
+    },
+    icons:{
+        padding:"20px"
     }
 
 };

@@ -1,17 +1,16 @@
 const styles = {
 
-    
+
     Container: {
+        backgroundImage: "url(http://localhost:3000/image/photo.jpg)",
+        backgroundSize: "100% 100%",
+        // opacity: 0.5,
         color: "black ",
-        backgroundColor: "#fabd69",
-        // height: "1000px",
-        padding:" 400px 0",
-        // marginTop: "10px",
-        // borderRadius: "10px",
+        // backgroundColor: "#fabd69",
+        padding: " 400px 0",
         textAlign: "center",
-        // paddingTop: "20px"
     },
-    
+
 
 };
 

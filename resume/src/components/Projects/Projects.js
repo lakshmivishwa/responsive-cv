@@ -31,17 +31,17 @@ function Projects(props) {
                                 <CardMedia
                                     component="img"
                                     alt={project.name}
-                                    height="140"
-                                    image="/static/images/cards/contemplative-reptile.jpg"
+                                    height="300"
+                                    image={project.image}
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
                                         {project.name}
                                     </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
+                                    {project.features.map((data) => (<Typography variant="body2" color="text.secondary">
+                                        {data}
                                     </Typography>
+                                    ))}
                                 </CardContent>
                                 <CardActions>
                                     <Button size="small">Live URL</Button>

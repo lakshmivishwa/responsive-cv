@@ -20,8 +20,8 @@ function Educations(props) {
                     </Grid>
                         <span style={styles.verticalLine}></span><Grid item xs={7} md={7}>
                             <Typography variant="h5" component="h6">{education.courseName}</Typography>
-                           <a href={education.website}><Typography >{education.instituteName}</Typography></a> 
-                            <Typography variant="subtitle1" component="subtitle1">Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. Over the years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI .</Typography>
+                            <a href={education.website}><Typography >{education.instituteName}</Typography></a>
+                            <Typography variant="subtitle1" component="subtitle1">{education.description}</Typography>
                         </Grid></>
                 ))}
 
