@@ -44,10 +44,10 @@ function Projects(props) {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small">{project.liveURL}</Button>
+                                    <Button size="small">Live URL</Button>
                                     {/* <Button size="small">Learn More</Button> */}
+                                    <Button size="small">Source code</Button>
                                 </CardActions>
-                                <Button size="small">{project.liveURL}</Button>
                             </Card>
                         </Grid>
 

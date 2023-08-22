@@ -21,9 +21,7 @@ function PersonalDetail(props) {
 
                 </Grid>
                 <Grid item xs={8} md={8}>
-
-                    {/* <Typography variant="h4" component="span" style={styles.aboutMe}>ABOUT ME</Typography> */}
-                    <Typography variant="h6" component="h2">Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. In one years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI .</Typography>
+                    <Typography variant="subtitle1" component="subtitle1">Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. In one years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI .</Typography>
                 </Grid>
             </Grid>
         </Container>

@@ -15,7 +15,20 @@
   "objective": "Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. In one years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI .",
   "experiences": [
     {
+      "organizationName": "Encora",
+      "website": "https://www.encora.com/",
+      "designation": "Junior Software developer",
+      "role": [
+        "Started as an intern, learning the fundamentals of frontend development. Developed responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.Expanded my skillset to include backend technologies and concepts.Developed RESTful APIs to facilitate data exchange between the frontend and backend systems.Proactively engaged in self-guided learning to expand my knowledge in both frontend and backend technologies."
+      ],
+      "tenure": {
+        "from": " 2022-07-25",
+        "to": "Current"
+      }
+    },
+    {
       "organizationName": "AXIS Bank Ltd",
+      "website": "https://www.axisbank.com/",
       "designation": "Service Relationship Officer",
       "role": [
         "Liasoning with credit and Operations team for the smooth process of proposals , Maintaining daily MIS for login & disbursement and Coordinate with RM'S & ASM'S for BOD & EOD report."
@@ -27,6 +40,7 @@
     },
     {
       "organizationName": "AXIS Bank Ltd",
+      "website": "https://www.axisbank.com/",
       "designation": "Service Relationship Officer",
       "role": [
         "Liasoning with credit and Operations team for the smooth process of proposals , Maintaining daily MIS for login & disbursement and Coordinate with RM'S & ASM'S for BOD & EOD report."
@@ -38,6 +52,7 @@
     },
     {
       "organizationName": "SBI Card",
+      "website": "https://www.sbicard.com/",
       "designation": "Back Office Executive",
       "role": ["Maintaining Daily MIS for login & Dispatch Forms."],
       "tenure": {
@@ -49,6 +64,7 @@
   "education": [
     {
       "instituteName": "John Hopkins University",
+      "website": "https://www.jhu.edu/",
       "courseName": "HTML, CSS, and Javascript for Web Developers",
       "tenure": {
         "from": "2022-03-01",
@@ -58,7 +74,8 @@
       "location": "Coursera"
     },
     {
-      "instituteName": "ICCI Computer Academy",
+      "instituteName": "ICCI Computer Academy, MCU",
+      "website": "https://www.mcu.ac.in/",
       "courseName": "M.Sc. (CS)",
       "tenure": {
         "from": "2017-08-01",
@@ -68,7 +85,8 @@
       "location": "Bhopal"
     },
     {
-      "instituteName": "Sarojini Naidu Govt Girls PG College",
+      "instituteName": "Sarojini Naidu Govt Girls PG College, Bhopal",
+      "website": "https://snggpg.in/",
       "courseName": "B.Sc.(BZC)",
       "tenure": {
         "from": "2013-08-01",
@@ -79,6 +97,28 @@
     }
   ],
   "projects": [
+    {
+      "name": "Bill generator application",
+      "sourceCodeUrl": "https://github.com/lakshmivishwa/bill-generator",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
+      "technologies": ["Reactjs", "ExpressJs/NodeJs", "MongoDb"],
+      "features": [
+        "Created as an assignment for learning backend ",
+        "We can create Bill here and download the bill pdf "
+      ]
+    },
+
+    {
+      "name": "E-commerce website ",
+      "sourceCodeUrl": "https://github.com/lakshmivishwa/daily_task/tree/main/Animated%20site/animated-app",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
+      "technologies": ["Reactjs", "MUI library"],
+      "features": [
+        "Created as an assignment for internship ",
+        "It is a small website to create an order for mobile purchase   "
+      ]
+    },
+
     {
       "name": "Loan Application Form",
       "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/loan_application",
@@ -121,51 +161,53 @@
   "coding": [
     {
       "codingSkill": "Javascript",
-      "rating": 0.3
+      "rating": 3
     },
     {
       "codingSkill": "HTML",
-      "rating": 0.5
+      "rating": 5
     },
     {
       "codingSkill": "CSS",
-      "rating": 0.5
+      "rating": 5
     },
     {
       "codingSkill": "Jquery",
-      "rating": 0.5
+      "rating": 4
     },
     {
       "codingSkill": "Bootstrap",
-      "rating": 0.5
+      "rating": 4
     },
     {
       "codingSkill": "NodeJS / Express",
-      "rating": 0.5
+      "rating": 4
     },
     {
       "codingSkill": "JSON / XML",
-      "rating": 0.5
+      "rating": 5
     },
     {
       "codingSkill": "Mongodb",
-      "rating": 0.5
+      "rating": 5
     },
     {
       "codingSkill": "Python",
-      "rating": 0.5
+      "rating": 3
     }
   ],
   "tools": [
     {
       "name": "VS Code",
       "title": "Visual Studio Code",
-      "image": "vs_code.png"
+      "image": "vs_code.png",
+      "rating": 5
     },
     {
       "name": "Github",
       "title": "Github",
-      "image": "github.png"
+      "image": "github.png",
+      "rating": 4
     }
   ],
   "awards": [
@@ -176,15 +218,15 @@
   "languages": [
     {
       "language": "Hindi",
-      "ratings": 0.5
+      "rating": 5
     },
     {
       "language": "English",
-      "ratings": 0.4
+      "rating": 4
     },
     {
       "language": "Marathi",
-      "ratings": 0.3
+      "rating": 3
     }
   ]
 }

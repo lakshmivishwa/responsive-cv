@@ -6,6 +6,7 @@ import Title from '../Title/Title';
 import Typography from '@mui/material/Typography';
 import Rating from '@mui/material/Rating';
 function Abilities(props) {
+
     console.log(props)
     return (
         <><Container maxWidth="lg" style={styles.mainContainer}>
@@ -29,7 +30,7 @@ function Abilities(props) {
                                 </Grid>
                                 <Grid item xs={12} md={6}>
                                     <span style={styles.rating}>
-                                        <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly /></span>
+                                        <Rating name="half-rating-read" defaultValue={coding.rating} readOnly /></span>
                                 </Grid>
                             </Grid>
                         ))}
@@ -43,7 +44,8 @@ function Abilities(props) {
                                     <Typography variant="span" component="legend">{language.language}</Typography></Grid>
                                 <Grid item xs={12} md={6}>
                                     <span style={styles.rating}>
-                                        <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly /></span>
+                                        <Rating name="half-rating-read" defaultValue={language.rating} readOnly />
+                                    </span>
                                 </Grid>
                             </Grid>
                         ))}
@@ -55,7 +57,7 @@ function Abilities(props) {
                                     <Typography variant="span" component="legend">{tools.name}</Typography></Grid>
                                 <Grid item xs={12} md={6}>
                                     <span style={styles.rating}>
-                                        <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly /></span>
+                                        <Rating name="half-rating-read" defaultValue={tools.rating} readOnly /></span>
                                 </Grid>
                             </Grid>
                         ))}
