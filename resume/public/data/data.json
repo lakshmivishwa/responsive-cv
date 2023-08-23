@@ -102,7 +102,7 @@
   "projects": [
     {
       "name": "Bill generator application",
-      "image": "http://localhost:3000/image/responsiveCv.jpg",
+      "image": "http://localhost:3000/image/billGenerator.jpg",
       "sourceCodeUrl": "https://github.com/lakshmivishwa/bill-generator",
       "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
       "technologies": ["Reactjs", "ExpressJs/NodeJs", "MongoDb"],
@@ -114,7 +114,7 @@
 
     {
       "name": "E-commerce website ",
-      "image": "http://localhost:3000/image/responsiveCv.jpg",
+      "image": "http://localhost:3000/image/mobile.jpg",
       "sourceCodeUrl": "https://github.com/lakshmivishwa/daily_task/tree/main/Animated%20site/animated-app",
       "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
       "technologies": ["Reactjs", "MUI library"],
@@ -126,7 +126,7 @@
 
     {
       "name": "Loan Application Form",
-      "image": "http://localhost:3000/image/responsiveCv.jpg",
+      "image": "http://localhost:3000/image/loan.jpg",
       "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/loan_application",
       "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
       "technologies": ["Javascript", "HTML", "CSS"],
@@ -137,7 +137,7 @@
     },
     {
       "name": "Restaurant Website",
-      "image": "http://localhost:3000/image/responsiveCv.jpg",
+      "image": "http://localhost:3000/image/restaurant.jpg",
       "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/coursera-assignments/tree/main/restaurant",
       "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/restaurant/index.html",
       "technologies": ["Javascript", "HTML", "Ajax", "JSON", "Bootstrap"],
@@ -156,7 +156,7 @@
     },
     {
       "name": "School Management",
-      "image": "http://localhost:3000/image/responsiveCv.jpg",
+      "image": "",
       "sourceCodeUrl": "",
       "liveURL": "",
       "technologies": ["VB .Net", "MS Acess"],
