@@ -1,25 +1,21 @@
-# from flask import Flask, jsonify, request,send_file
-# from pymongo import MongoClient
-# app = Flask(__name__)
-# @app.route('/')
-# def hello():
-#     return "hello"
-
-from flask import Flask,jsonify
-from pymongo import MongoClient
+from flask import Flask, jsonify, render_template
+from flask_cors import CORS
+from flask_pymongo import PyMongo
 
 app = Flask(__name__)
+CORS(app)
 
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/resume'
-mongo = MongoClient(app.config['MONGO_URI'])
-db = mongo.resume
+app.config["MONGO_URI"] = "mongodb://localhost:27017/resume"
+mongo = PyMongo(app)
 
-collection = db.personal_detail
+@app.route('/', methods=['GET'])
+def get_data():
+   
+    user_data = list(mongo.db.personal_detail.find())
 
-@app.route('/get_data_json', methods=['GET'])
-def get_data_json():
-    data = list(collection.find({}))
-    return jsonify(data)
-
+    for item in user_data:
+        item['_id'] = str(item['_id'])
+    return jsonify(user_data)
+    
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

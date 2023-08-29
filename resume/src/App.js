@@ -10,20 +10,21 @@ import Footer from './components/Footer/Footer';
 import { useState, useEffect } from 'react';
 
 function App() {
-  const [data, setData] = useState(null);
+  const [userData, setUserData] = useState([]);
 
-  let baseURL = `http://localhost:3000/data/data.json`
-  async function getData() {
-    axios.get(baseURL).then((response) => {
-      setData(response.data);
-      // console.log(data);
-    });
-  }
   useEffect(() => {
-    getData();
+    axios.get('http://localhost:5000/')
+      .then(response => {
+        console.log(typeof response.data)
+        // console.log(JSON.parse(response.data));
+        setUserData(response.data);  // Receive data as a JSON object
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
   }, []);
-
-  console.log(data);
+  console.log(userData);
+  let data = userData[0]
   return (
     <div className="App">
       <Homepage />
@@ -33,7 +34,6 @@ function App() {
       <Abilities codingData={data?.coding || []} languageData={data?.languages || []} toolsData={data?.tools || []} />
       <Projects data={data?.projects || []} />
       <Footer />
-
     </div>
   );
 }

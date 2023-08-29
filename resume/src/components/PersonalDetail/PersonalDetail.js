@@ -16,7 +16,7 @@ function PersonalDetail(props) {
                     <Title titleName="ABOUT ME" />
                 </Grid>
 
-                <Grid item xs={12} md={4}>
+                <Grid item xs={12} md={4} style={styles.imageMainContainer}>
                     <img src="http://localhost:3000/image/photo.jpg" alt="passport size" style={styles.imageContainer} />
                 </Grid>
                 <Grid item xs={12} md={8}>
