@@ -7,8 +7,10 @@ import Abilities from './components/Abilities/Abilities';
 import Projects from './components/Projects/Projects';
 import axios from "axios";
 import Footer from './components/Footer/Footer';
-import { useState, useEffect } from 'react';
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import InputForm from "../src/components/InputForm/InputForm"
 function App() {
   const [userData, setUserData] = useState([]);
 
@@ -26,7 +28,7 @@ function App() {
   console.log(userData);
   let data = userData[0]
   return (
-    <div className="App">
+    <BrowserRouter>
       <Homepage />
       <PersonalDetail image={data?.profilePhoto || []} objective={data?.objective || []} />
       <Careers data={data?.experiences || []} />
@@ -34,7 +36,11 @@ function App() {
       <Abilities codingData={data?.coding || []} languageData={data?.languages || []} toolsData={data?.tools || []} />
       <Projects data={data?.projects || []} />
       <Footer />
-    </div>
+      <Routes>
+        <Route path="/userinput" element={<InputForm />} />
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
