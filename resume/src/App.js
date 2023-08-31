@@ -29,14 +29,17 @@ function App() {
   let data = userData[0]
   return (
     <BrowserRouter>
-      <Homepage />
-      <PersonalDetail image={data?.profilePhoto || []} objective={data?.objective || []} />
-      <Careers data={data?.experiences || []} />
-      <Educations data={data?.education || []} />
-      <Abilities codingData={data?.coding || []} languageData={data?.languages || []} toolsData={data?.tools || []} />
-      <Projects data={data?.projects || []} />
-      <Footer />
       <Routes>
+        <Route path="/" element={
+          <>
+            <Homepage data={data?.name || []} />
+            <PersonalDetail image={data?.profilePhoto || []} objective={data?.objective || []} />
+            <Careers data={data?.experiences || []} />
+            <Educations data={data?.education || []} />
+            <Abilities codingData={data?.coding || []} languageData={data?.languages || []} toolsData={data?.tools || []} />
+            <Projects data={data?.projects || []} />
+            <Footer /></>
+        } />
         <Route path="/userinput" element={<InputForm />} />
       </Routes>
     </BrowserRouter>
