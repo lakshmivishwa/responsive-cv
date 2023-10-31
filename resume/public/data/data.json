@@ -1,0 +1,237 @@
+{
+  "name": "Lakshmi Vishwakarma",
+  "dateOfBirth": "1995-01-11",
+  "address": {
+    "line1": "B-302 Mayur Plaza",
+    "line2": "Shivraj Nagar, Rahatni",
+    "pincode": 411017
+  },
+  "phoneNo": "+919752083903",
+  "email": "lvlaxmi.1995@gmail.com",
+  "city": "Pune",
+  "profilePhoto": "http://localhost:3000/images/photo.jpg",
+  "github": "https://github.com/Lakshmivishwakarma",
+  "linkedin": "https://www.linkedin.com/in/lakshmiv11",
+  "objective": "Hi, my name is Lakshmi Vishwakarma I'm a Creative / Full Stack Developer from the Pune. In one years I developed a skill set in a range of technologies and frameworks, including React Js, Express js and Python. Where I really value clean and readable code. Also I'm very passionate about UX / UI. My journey into the world of programming has ignited a strong desire to become a full-stack developer. With a keen eye for detail and a knack for problem-solving, I am eager to contribute my skills to dynamic development teams while continuously expanding my knowledge in the pursuit of becoming a well-rounded and proficient full-stack developer.",
+  "experiences": [
+    {
+      "organizationName": "Encora",
+      "website": "https://www.encora.com/",
+      "designation": "Junior Software developer",
+      "role": [
+        "Started as an intern, learning the fundamentals of frontend development. Developed responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.Expanded my skillset to include backend technologies and concepts.Developed RESTful APIs to facilitate data exchange between the frontend and backend systems.Proactively engaged in self-guided learning to expand my knowledge in both frontend and backend technologies."
+      ],
+      "tenure": {
+        "from": " 2022-07-25",
+        "to": "Current"
+      }
+    },
+    {
+      "organizationName": "AXIS Bank Ltd",
+      "website": "https://www.axisbank.com/",
+      "designation": "Service Relationship Officer",
+      "role": [
+        "Liasoning with credit and Operations team for the smooth process of proposals , Maintaining daily MIS for login & disbursement and Coordinate with RM'S & ASM'S for BOD & EOD report."
+      ],
+      "tenure": {
+        "from": " 2022-01-28",
+        "to": "2022-03-15"
+      }
+    },
+    {
+      "organizationName": "AXIS Bank Ltd",
+      "website": "https://www.axisbank.com/",
+      "designation": "Service Relationship Officer",
+      "role": [
+        "Liasoning with credit and Operations team for the smooth process of proposals , Maintaining daily MIS for login & disbursement and Coordinate with RM'S & ASM'S for BOD & EOD report."
+      ],
+      "tenure": {
+        "from": "2019-07-12",
+        "to": "2022-01-27"
+      }
+    },
+    {
+      "organizationName": "SBI Card",
+      "website": "https://www.sbicard.com/",
+      "designation": "Back Office Executive",
+      "role": ["Maintaining Daily MIS for login & Dispatch Forms."],
+      "tenure": {
+        "from": "2018-01-18",
+        "to": "2019-05-15"
+      }
+    }
+  ],
+  "education": [
+    {
+      "instituteName": "John Hopkins University",
+      "website": "https://www.jhu.edu/",
+      "courseName": "HTML, CSS, and Javascript for Web Developers",
+      "description": "I successfully completed a course from John Hopkins University, learning how to start from basic to advance, also I have created some website using HTML, CSS, Javascript. I also enjoyed the close connection with UX that this approach brings.",
+      "tenure": {
+        "from": "2022-03-01",
+        "to": "2022-05-31"
+      },
+      "courseURL": "HTTT",
+      "location": "Coursera"
+    },
+    {
+      "instituteName": "ICCI Computer Academy, MCU",
+      "description": "I have completed my PG from ICCI computer academy, which is affiliated with Makhanlal Chaturvedi National University of Journalism and Communication, Bhopal . Here I developed a good sense of both creative and technical skills.",
+      "website": "https://www.mcu.ac.in/",
+      "courseName": "M.Sc. (CS)",
+      "tenure": {
+        "from": "2017-08-01",
+        "to": "2019-07-01"
+      },
+      "courseURL": "HTTT",
+      "location": "Bhopal"
+    },
+    {
+      "instituteName": "Sarojini Naidu Govt Girls PG College, Bhopal",
+      "website": "https://snggpg.in/",
+      "description": "I graduated from my bachelor's degree with good grades. I have done my graduation in Biology .I choose the profile of Nature & Health. which allowed me to explore my interests.",
+      "courseName": "B.Sc.(BZC)",
+      "tenure": {
+        "from": "2013-08-01",
+        "to": "2016-07-18"
+      },
+      "courseURL": "HTTT",
+      "location": "Bhopal"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bill generator application",
+      "image": "http://localhost:3000/image/billGenerator.jpg",
+      "sourceCodeUrl": "https://github.com/lakshmivishwa/bill-generator",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
+      "technologies": ["Reactjs", "ExpressJs/NodeJs", "MongoDb"],
+      "features": [
+        "Created as an assignment for learning backend ",
+        "We can create Bill here and download the bill pdf "
+      ]
+    },
+
+    {
+      "name": "E-commerce website ",
+      "image": "http://localhost:3000/image/mobile.jpg",
+      "sourceCodeUrl": "https://github.com/lakshmivishwa/daily_task/tree/main/Animated%20site/animated-app",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
+      "technologies": ["Reactjs", "MUI library"],
+      "features": [
+        "Created as an assignment for internship ",
+        "It is a small website to create an order for mobile purchase   "
+      ]
+    },
+
+    {
+      "name": "Loan Application Form",
+      "image": "http://localhost:3000/image/loan.jpg",
+      "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/loan_application",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/loan_application/",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "features": [
+        "Created as an assignment for a company",
+        "Captcha validation and OTP validation for forms"
+      ]
+    },
+    {
+      "name": "Restaurant Website",
+      "image": "http://localhost:3000/image/restaurant.jpg",
+      "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/coursera-assignments/tree/main/restaurant",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/restaurant/index.html",
+      "technologies": ["Javascript", "HTML", "Ajax", "JSON", "Bootstrap"],
+      "features": [
+        "Responsive Pages using Bootstrap 3.0",
+        "Single Page Application using Vanilla JS"
+      ]
+    },
+    {
+      "name": "Responsive Resume",
+      "image": "http://localhost:3000/image/responsiveCv.jpg",
+      "sourceCodeUrl": "https://github.com/Lakshmivishwakarma/Lakshmivishwakarma.io",
+      "liveURL": "https://lakshmivishwakarma.github.io/Lakshmivishwakarma.io/",
+      "technologies": ["Javascript", "HTML", "Ajax", "JSON", "Bootstrap"],
+      "features": ["Responsive Resume "]
+    },
+    {
+      "name": "School Management",
+      "image": "",
+      "sourceCodeUrl": "",
+      "liveURL": "",
+      "technologies": ["VB .Net", "MS Acess"],
+      "features": ["Admission registration, Course Selection, Fee Structure "]
+    }
+  ],
+  "coding": [
+    {
+      "codingSkill": "Javascript",
+      "rating": 3
+    },
+    {
+      "codingSkill": "HTML",
+      "rating": 5
+    },
+    {
+      "codingSkill": "CSS",
+      "rating": 5
+    },
+    {
+      "codingSkill": "Jquery",
+      "rating": 4
+    },
+    {
+      "codingSkill": "Bootstrap",
+      "rating": 4
+    },
+    {
+      "codingSkill": "NodeJS / Express",
+      "rating": 4
+    },
+    {
+      "codingSkill": "JSON / XML",
+      "rating": 5
+    },
+    {
+      "codingSkill": "Mongodb",
+      "rating": 5
+    },
+    {
+      "codingSkill": "Python",
+      "rating": 3
+    }
+  ],
+  "tools": [
+    {
+      "name": "VS Code",
+      "title": "Visual Studio Code",
+      "image": "vs_code.png",
+      "rating": 5
+    },
+    {
+      "name": "Github",
+      "title": "Github",
+      "image": "github.png",
+      "rating": 4
+    }
+  ],
+  "awards": [
+    "\"B\" certificate issued by NSS (National service scheme)",
+    "Participated in NSS State camp during graduation",
+    "Participated in National camp during graduation"
+  ],
+  "languages": [
+    {
+      "language": "Hindi",
+      "rating": 5
+    },
+    {
+      "language": "English",
+      "rating": 4
+    },
+    {
+      "language": "Marathi",
+      "rating": 3
+    }
+  ]
+}
